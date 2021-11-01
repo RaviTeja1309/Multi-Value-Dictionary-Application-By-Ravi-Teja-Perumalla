@@ -59,7 +59,7 @@ namespace SpreetailConsole
                             }
                             break;
                         case "MEMBERS":
-                            if (listOfuserinput.Length > 0)
+                            if (listOfuserinput.Length == 2)
                             {
                                 response.GetMemebers(listOfuserinput[1]);
                             }
